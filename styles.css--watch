@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 24px;
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+}
+
+.header__tittle {
+  text-align: center;
+  color: hsl(186, 14%, 43%);
+  font-size: 1em;
+  margin: 30px 0;
+  letter-spacing: 8px;
+}
+
+.calculator-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 375px;
+  margin: auto;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.inputs-section__bill-label {
+  display: block;
+  color: hsl(186, 14%, 43%);
+  font-size: 0.75em;
+  margin-bottom: 8px;
+}
+
+.inputs-section__bill-inputs {
+  width: 100%;
+  height: 48px;
+  font-family: "Space Mono", monospace;
+  font-size: 1em;
+  text-align: right;
+  caret-color: hsl(172, 67%, 45%);
+  border-radius: 4px;
+  padding-right: 10px;
+  border: none;
+  background-image: url("../images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-color: hsl(189, 41%, 97%);
+}
+.inputs-section__bill-inputs:hover {
+  cursor: pointer;
+}
+.inputs-section__bill-inputs:focus {
+  outline: none;
+  border: 2px solid hsl(172, 67%, 45%);
+}
+.inputs-section__bill-inputs::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css--watch.map */
